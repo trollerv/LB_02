@@ -146,3 +146,7 @@ h3 {
 .picture {
 	width: 50%;
 }
+
+.center-text {
+	text-align: center;
+}
