@@ -4,7 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	color: #FFF;
 	list-style-type: none;
 	text-decoration: none;
@@ -14,8 +14,8 @@ html {
 	height: 100%;
 }
 
-header, nav, article, section, aside, footer, main, noscript { 
-	display: block; 
+header, nav, article, section, aside, footer, main, noscript {
+	display: block;
 }
 
 body {
@@ -44,7 +44,7 @@ main {
 footer {
 	display: flex;
 	align-items: center;
-  	justify-content: space-around;
+	justify-content: space-around;
 	height: 3vw;
 	bottom: 0;
 	position: relative;
@@ -56,7 +56,7 @@ footer {
 nav ul {
 	padding: none;
 	margin: none;
-	display: flex; 
+	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
 	align-items: center;
@@ -111,10 +111,7 @@ h3 {
 	margin: 20px 0;
 }
 
- p {
-	 margin-bottom: 25px;
-	 font-size: 17px;
-}
+
 
 /*KLASSEN*/
 .bilder {
@@ -147,6 +144,3 @@ h3 {
 	width: 50%;
 }
 
-.center-text {
-	text-align: center;
-}
