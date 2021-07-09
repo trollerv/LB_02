@@ -1,10 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+/*NAVIGATION*/
 .nav-pills .nav-link.active {
-	background-color: purple;
+	background-color: #207181;
 }
 p{
 
+}
+h5{
+	background-color: darkslateblue;
+	padding: 20px;
+}
+
+/*CLASSES*/
+.nav-link.hover {
+	color: black;
+}
+
+.img-thumbnail{
+	width: 200px;
+}
+
+
+.col-lg-4 {
+	border: #b6d4fe 10px solid;
+}
+
+.mb-lg-0{
+	border: #b6d4fe 10px solid;
+}
+
+.video {
+	margin: 0 auto;
+	width: 100%;
 }

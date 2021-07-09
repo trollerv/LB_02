@@ -20,7 +20,7 @@ header, nav, article, section, aside, footer, main, noscript {
 
 body {
 	margin: 0 auto;
-	background-image:url("../Bilder/background_index.jpg");
+	background-image:url("../Bilder/space.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	box-sizing: border-box;
@@ -38,7 +38,7 @@ main {
 	flex-wrap: wrap;
 	width: 80%;
 	height: 100%;
-	background-color: rgba(86,14,152,0.73);
+	background-color: rgb(11,88,90,0.80);
 }
 
 footer {
@@ -54,8 +54,6 @@ footer {
 
 /*NAVIGATION*/
 nav ul {
-	padding: none;
-	margin: none;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
@@ -64,8 +62,6 @@ nav ul {
 
 nav ul li {
 	width: 144px;
-	background-color: none;
-	margin: none;
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -75,9 +71,6 @@ a.nav-link {
 	color: #FFFFFF;
 }
 
-.nav-pills .nav-link.active {
-	background-color: purple;
-}
 
 a {
 	font-size: 20px;
@@ -143,4 +136,11 @@ h3 {
 .picture {
 	width: 50%;
 }
+#audio_with_controls {
+	align-content: center;
+}
+
+
+
+/*AUDIO*/
 
